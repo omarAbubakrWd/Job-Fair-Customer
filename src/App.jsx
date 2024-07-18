@@ -13,10 +13,10 @@ function App() {
     const fetchData = async () => {
       try {
         const customersResponse = await axios.get(
-          "https://mohammed-hassan-175.github.io/JSON-Server/customers.json"
+          "https://omarabubakrwd.github.io/database/customers.json"
         );
         const transactionsResponse = await axios.get(
-          "https://mohammed-hassan-175.github.io/JSON-Server/transactions.json"
+          "https://omarabubakrwd.github.io/database/transactions.json"
         );
         setData({
           customers: customersResponse.data.customers,
